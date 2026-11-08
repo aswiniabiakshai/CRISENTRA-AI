@@ -1,0 +1,34 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model files
+*.pt
+*.pth
+*.bin
+roberta_final/
+
+# Node
+node_modules/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and reports
+crisentra_users.json
+crisentra_reports.json
+crisentra_feedback.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
